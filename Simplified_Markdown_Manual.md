@@ -1,4 +1,6 @@
 # Markdown syntax
+This file is a simplified doc referred the website [markdown basic syntax](https://www.markdownguide.org/basic-syntax/#overview).
+
 ## Headings
 To create a heading, add number signs(`#`) in front of a word or phrase. The number of number signs you use should correspond to the heading level.
 
@@ -145,3 +147,17 @@ To quickly turn a URL or email address into a link, enclose it in angle brackets
     ![Linux mascot](https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Tux_Enhanced.svg/154px-Tux_Enhanced.svg.png)
 
 3. Close the file.
+
+## Tables
+
+For example:
+
+|1|2|3|4|
+|-|-|-|-|
+|5|6|7|8|
+|9|10|11|12|
+
+
+
+
+
