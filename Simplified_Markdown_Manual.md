@@ -1,4 +1,4 @@
-# Markdown syntax
+# Markdown manual
 This file is a simplified doc referred the website [markdown basic syntax](https://www.markdownguide.org/basic-syntax/#overview).
 
 ## Headings
@@ -151,11 +151,11 @@ To quickly turn a URL or email address into a link, enclose it in angle brackets
 ## Tables
 
 For example:
-
 |1|2|3|4|
 |-|-|-|-|
 |5|6|7|8|
 |9|10|11|12|
+
 
 
 

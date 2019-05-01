@@ -24,6 +24,7 @@ The **make** program allows you to use macros, which are similar to variables. M
 
 ### Spacial Macros
 - `$@` is the name of the file to be made
+- `$^` is the name of the file to be depended 
 - `$?` is the name of the changed dependents
 - `$<` is the name of the related file that caused the action
 - `$*` is the prefix shared by target and dependent files
@@ -57,7 +58,6 @@ These predefined variables, i.e., macros used in implicit rules fall into two cl
 
 Common variables used as names of programs in built-in rules of makefile:
 
----
 |Macros|Comment|
 |-|-|
 |AS|Program to compile assembly files; default is "`as`".|
@@ -66,11 +66,9 @@ Common variables used as names of programs in built-in rules of makefile:
 |CPP|Program to run the C preprocessor, with results to standard output; default is "`${CC} -E`"|
 |CTANGLE|Program to tanslate C web into C; default id "`ctangle`"|
 |RM|Command to remove a file; default is "`rm -f`"|
----
 
 Here is a table of variables whose value are additional arguments for the programs above. The **default values** for all of these is the **empty string**, unless otherwise noted.
 
----
 |Macros|Comment|
 |-|-|
 |ASFLAGS|Extra flags to give to the assembler when explicitly invoked on a ".s" or ".S" file.|
@@ -78,7 +76,6 @@ Here is a table of variables whose value are additional arguments for the progra
 |CXXFLAGS|Extra flags to give to the C compiler.|
 |CPPFLAGS|Extra flags to give to the C preprocessor and programs, which use it(such ad C and Fortran compiler).|
 |LDFLAGS|Extra flags to give to compilers when they are supposed to invoke the linker, "ld".|
----
 
 **NOTE:**
 > You can cancel all variables used by implicit rules with the "`-R`" or "`--no-builtin-variables`" option.
@@ -172,7 +169,7 @@ It informs **make** that you will be using these suffixes to make your own rules
 ## 5. Directives
 ToDo
 
-## Other Features
+## 6. Other Features
 ### Recursive Use of Make
 Recursive use of **make** means using **make** as a command in a makefile. This technique is useful when you want to separate makefile for various subsystems that composes a large system.
 
@@ -226,8 +223,13 @@ make -f your-makefile-name
 ### Same as C/C++
 Following syntaxes are similar to C/C++.
 > +=
+> 
 > ifeq ... else... endif
+> 
 > ifneq ... else... endif
+> 
 > include ...
+> 
 > override variable = value
+> 
 > \
