@@ -111,7 +111,7 @@ For example:
 ~~The world is flat.~~ We now know that the world is round.
 
 ## Task Lists
-To create a task list, add dashes(`-`) and brackets with a space(`[]`) in front of task list items. To select a checkbox, add an `x` in between the brackets(`[x]`).
+To create a task list, add dashes(`-`) and brackets with a space(`[]`) before the words. To select a checkbox, add an `x` in between the brackets(`[x]`).
 
 For example:
 - [x] Markdown doc
@@ -149,6 +149,7 @@ To quickly turn a URL or email address into a link, enclose it in angle brackets
 3. Close the file.
 
 ## Tables
+To support a table format, add `|` to form a raw table before and after the table contents.
 
 For example:
 |1|2|3|4|
@@ -156,8 +157,13 @@ For example:
 |5|6|7|8|
 |9|10|11|12|
 
+## Math
+To display an elegant math formulas, add dollar(`$`) or double dollars(`$$`) before and after the words.
 
-
-
-
+For example:
+> $$x_0, x_1 = f(x_0), x_2 = f(x_1), ..., x_i = f(x_{i-1}), ...$$(1)
+> 
+> function $f(x) = ax^2+bx+c$
+> 
+> $$f(x) = \sum_{i=1}^{n}(-1)^i(x-i)^{p-1}$$(2)
 
