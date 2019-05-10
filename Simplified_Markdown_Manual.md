@@ -167,3 +167,21 @@ For example:
 > 
 > $$f(x) = \sum_{i=1}^{n}(-1)^i(x-i)^{p-1}$$(2)
 
+## Escape
+To display some special characters which are used to typeset content, we have to use escape character before them.
+```
+Format      Description
+-----------------------------
+\\          backslash
+\`          backtick
+\*          asterisk
+\_          underscore
+\{\}        curly braces
+\[\]        square brackets
+\(\)        parentheses
+\#          hash mark
+\+          plus sign
+\-          minus sign(hyphen)
+\.          dot
+\!          exclamation mark
+```
