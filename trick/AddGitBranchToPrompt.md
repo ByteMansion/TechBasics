@@ -18,6 +18,7 @@ Example prompt when we login to a machine:
 > useful command can get above info: `w`, `who`, `hostname`, etc.
 
 ### Control Commands for PS1
+```
 > d - the date in "Weekday Month Date" format (e.g., "Tue May 26")
 > e - an ASCII escape character (033)
 > h - the hostname up to the first .
@@ -26,7 +27,7 @@ Example prompt when we login to a machine:
 > l - the basename of the shells terminal device name
 > n - newline
 > r - carriage return
-> s - the name of the shell, the basename of \$0 (the portion following the final slash)
+> s - the name of the shell, the basename of $0 (the portion following the final slash)
 > t - the current time in 24-hour HH:MM:SS format
 > T - the current time in 12-hour HH:MM:SS format
 > @ - the current time in 12-hour am/pm format
@@ -37,8 +38,9 @@ Example prompt when we login to a machine:
 > w - Complete path of current working directory
 > W - the basename of the current working directory
 > ! - the history number of this command
-> \# - the command number of this command
-> \$ - if the effective UID is 0, a \#, otherwise a \$
+> # - the command number of this command
+> $ - if the effective UID is 0, a #, otherwise a $
+```
 
 ### Implementation
 Add following lines to `~/.bash_profile`:
