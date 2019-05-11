@@ -22,3 +22,9 @@ This manual is about `Markdown` tools. Markdown is, to some extent, the most imp
 [LaTeX](https://www.latex-project.org/) is a high-quality typesetting system; it includes features designed for the production of technical and scientific documentation. LaTeX is the de facto standard for the communication and publication of scientific documents. 
 
 But writing down a manual of LaTex that covers all aspects of its function is not my aim absolutely. This doc is only for those who typeset mathematical formats frequently. Most `markdown` apps support `LaTex` and combining those two tools is a beginning of way leading to elegance and perfection.
+
+## Tricks
+### Add git branch name into bash prompt
+[add git branch name into bash prompt](./trick/AddGitBranchToPrompt.md)
+
+This manual is about how to add git branch name into bash prompt, which is important for software engineers who participate in large program.
