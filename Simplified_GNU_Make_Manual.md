@@ -199,7 +199,7 @@ If you want to prevent a variable from being exported, use the unexport directiv
 unexport variable...
 ```
 ### Including Header File
-Provide the path if header files can be done using `-I` option in makefile.
+Provide the header path using `-I` option in makefile.
 
 For example:
 ```Makefile
@@ -215,7 +215,7 @@ hello: ${OBJ}
     ${CC} ${CFLAGS} ${INCLUDES} -c $<
 ```
 ### Running Makefile from Command Prompt
-If you have prepared the Makefile with name "`Makefile`", then simply write make at command prompt and it will run the Makefile file. But if you have given any other name to the Makefile, then use the following command:
+To create a file named `Makefile`, execute command `make`. But if you have given any other name to the Makefile, then use the following command:
 ```Makefile
 make -f your-makefile-name
 ```

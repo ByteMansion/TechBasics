@@ -1,13 +1,13 @@
 # Bash Prompt optimization
 ## Add git branch name to bash prompt
 ### Basic idea
-In order to add branch name to bash prompt, we have to edit the PS1 variable(set value of PS1 in ~/.bash_profile).
+In order to add branch name into bash prompt, we have to edit the PS1 variable(set PS1 in ~/.bash_profile).
 
 ### What is PS1?
-PS1 denotes Prompt String 1, which is the one of the prompts available in Linux/Unix shell.
+PS1 denotes Prompt String 1, which is one of the prompts available in Linux/Unix shell.
 When you open your terminal, it will display the content defined in PS1 variable in your bash prompt.
 
-Example prompt when we login to a machine:
+An prompt example when we login in a Linux machine:
 ```
 [surendra@linuxnix common]$
 ```
@@ -17,7 +17,7 @@ Example prompt when we login to a machine:
 ```
 > useful command can get above info: `w`, `who`, `hostname`, etc.
 
-### Control Commands for PS1
+#### Control Commands for PS1
 ```
 > d - the date in "Weekday Month Date" format (e.g., "Tue May 26")
 > e - an ASCII escape character (033)
@@ -42,7 +42,7 @@ Example prompt when we login to a machine:
 > $ - if the effective UID is 0, a #, otherwise a $
 ```
 
-### Implementation
+### Solution
 Add following lines to `~/.bash_profile`:
 ```Bash
 parse_git_branch() {
@@ -51,7 +51,7 @@ parse_git_branch() {
 
 export PS1="\u@\h \[\033[32m\]\w\[\033[33m\]\$(parse_git_branch)\[\033[00m\] $ "
 ```
-Here parse_git_branch() function extract the branch name in your git repository.
+Here `parse_git_branch()` function extract the branch name in your git repository.
 
 In above PS1, we defined following properties:
 ```
