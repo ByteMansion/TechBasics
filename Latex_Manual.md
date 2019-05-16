@@ -43,7 +43,42 @@ and elegant way to display a math formula.
 | $\Omega$ and $\omega$ | `\Omega` and `\omega` |
 | $\digamma$ | `\digamma` (archaic Greek letter)|
 
+### Logic Notation
+|Symbol|LATEX|
+|-|-|
+| $\exists$ | `\exists` |
+| $\exists!$ | `\exists!` |
+| $\nexists$ | `\nexists` |
+| $\forall$ | `\forall` |
+| $\neg$ | `\neg` |
+| $\lor$ | `\lor` |
+| $\land$ | `\land` |
+| $\Longrightarrow$ or $\implies$ | `\Longrightarrow` or `\implies` |
+| $\Rightarrow$ | `Rightarrow`|
+| $\Longleftarrow$ | `\Longleftarrow` |
+| $\Leftarrow$ | `\Leftarrow` |
+| $\iff$ | `\iff` |
+| $\Leftrightarrow$ | `\Leftrightarrow` |
+| $\top$ | `\top` |
+| $\bot$ | `\bot` |
 
+### Geometry
+|Symbol|LATEX|
+|-|-|
+| $\overline{\rm AB}$ | `\overline{\rm AB}` |
+| $\angle$ | `\angle` |
+| $\triangle$ | `\triangle` |
+| $\cong$ | `\cong` |
+| $\sim$ | `\sim` |
+| $\|$ | `\|` |
+| $\perp$ | `\perp` |
+| $\overrightarrow{\rm AB}$ | `\overrightarrow{\rm AB}` |
+| $\measuredangle$ | `\measuredangle` |
+| $\square$ | `\square` |
+| $\ncong$ | `\ncong` |
+| $\nsim$ | `\nsim` |
+| $\nparallel$ | `\nparallel` |
+| $\not\perp$ | `\not\perp` |
 
 
 ## Reference
