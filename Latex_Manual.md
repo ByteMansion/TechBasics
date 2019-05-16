@@ -14,9 +14,35 @@ If not support Latex, it is difficult or disgusting to write a formula in markdo
 and elegant way to display a math formula.
 
 ## Latex mathematical symbols
+### Greek Letters
 |Symbol|LATEX|
 |-|-|
-| \Alpha and \alpha |`\Alpha` and `\alpha` |
+| $\Alpha$ and $\alpha$ | `\Alpha` and `\alpha` |
+| $\Beta$ and $\beta$ | `\Beta` and `\beta` |
+| $\Gamma$ and $\gamma$ | `\Gamma` and `\gamma` |
+| $\Delta$ and $\delta$ | `\Delta` and `\delta` |
+| $\Epsilon$ and $\epsilon$ and $\varepsilon$ | `\Epsilon` and `\epsilon` and `\varepsilon` |
+| $\Zeta$ and $\zeta$ | `\Zeta` and `\zeta` |
+| $\Eta$ and $\eta$ | `\Eta` and `\eta` |
+| $\Theta$ and $\theta$ | `\Theta` and `\theta` |
+| $\Iota$ and $\iota$ | `\Iota` and `\iota` |
+| $\Kappa$ and $\kappa$ and $\varkappa$ | `\Kappa` and `\kappa` and `\varkappa` |
+| $\Lambda$ and $\lambda$ | `\Lambda` and `\lambda` |
+| $\Mu$ and $\mu$ | `\Mu` and `\mu` |
+| $\Nu$ and $\nu$ | `\Nu` and `\nu` |
+| $\Xi$ and $\xi$ | `\Xi` and `\xi` |
+| $\Omicron$ and $\omicron$ | `\Omicron` and `\omicron` |
+| $\Pi$ and $\pi$ and $\varpi$ | `\Pi` and `\pi` and `\varpi`|
+| $\Rho$ and $\rho$ and $\varrho$ | `\Rho` and `\rho` and `\varrho` |
+| $\Sigma$ and $\sigma$ and $\varsigma$ | `\Sigma` and `\sigma` and `\varsigma` |
+| $\Tau$ and $\tau$ | `\Tau` and `\tau` |
+| $\Upsilon$ and $\upsilon$ | `\Upsilon` and `\upsilon` |
+| $\Phi$ and $\phi$ and $\varphi$ | `\Phi` and `\phi` and `\varphi` |
+| $\Chi$ and $\chi$ | `\Chi` and `\chi` |
+| $\Psi$ and $\psi$ | `\Psi` and `\psi` |
+| $\Omega$ and $\omega$ | `\Omega` and `\omega` |
+| $\digamma$ | `\digamma` (archaic Greek letter)|
+
 
 
 
