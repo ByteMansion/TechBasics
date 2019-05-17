@@ -1,30 +1,42 @@
 # Manuals of Tools for SE
 ## Why this manual booklet?
-As  a software engineer(SE), many useful tools are important to improve efficiency and communication. More time should be used to change this world(fix bugs caused by himself actually -.-|).
+As  a software engineer(SE), many useful tools are important to improve efficiency. 
 
-I write these simplified docs about very useful tools down to facilitate those freshmen and myself in case I forget some points. 
+I write down these simplified docs about the powerful tools as my handbooks in case I forget some points. 
 
-Those docs are not complete absolutely, but can play an important role when you have to use one tool in an hour. I list basic knowledge of each tool and some simple cases. 
+Those docs are not complete, but can play an important role when you want to familiarize an absulute new tool quickly. I document basic tips of each tool and show some simple cases. 
 
 ## Makefile manual
 [GNU Make Manual](./Simplified_GNU_Make_Manual.md)
 
-This manual is about `GNU make` tools. Makefile is important for those engineers working on a large programes to compile source files and generate executables.
+This manual is about `GNU make` tools. Makefile is important for those engineers working on a large program to compile source files and generate executables.
 
 ## Markdown manual
 [Markdown Manual](./Simplified_Markdown_Manual.md)
 
-This manual is about `Markdown` tools. Markdown is, to some extent, the most important tools for a software engineer. As we all know, none of tools can be better than `markdown` to display code in a doc in an elegent way.
+This manual is about `Markdown` tools. Markdown is, to some extent, the most important tools for a software engineer. 
+As we all know, none of tools can be better than `markdown` to display code and formula in an elegent way.
 
 ## LaTex manual
 [LaTex Manual](./Latex_Manual.md)
 
 [LaTeX](https://www.latex-project.org/) is a high-quality typesetting system; it includes features designed for the production of technical and scientific documentation. LaTeX is the de facto standard for the communication and publication of scientific documents. 
 
-But writing down a manual of LaTex that covers all aspects of its function is not my aim absolutely. This doc is only for those who typeset mathematical formats frequently. Most `markdown` apps support `LaTex` and combining those two tools is a beginning of way leading to elegance and perfection.
+But writing down a manual of LaTex that covers all aspects of its functions and syntax is not my aim. This doc is only for those who typeset mathematical formulas frequently. Most `markdown` apps support `LaTex` and using these two tools in a doc is a beginning leading to elegance.
 
 ## Tricks
 ### Add git branch name into bash prompt
 [add git branch name into bash prompt](./trick/AddGitBranchToPrompt.md)
 
-This manual is about how to add git branch name into bash prompt, which is important for software engineers who participate in large program.
+This manual is about how to add git branch name into bash prompt, which is important and useful for software engineers working on large program.
+
+## !Note
+If you notice that LaTex syntax cannot display well on some github page, please git clone this repo and review the page in your local machine and a Latex-support app, such as [vscode](https://code.visualstudio.com/) with a markdown extention.
+All manuals are wrote in vscode and display absolutely well. I have found several different points bwetween github page and standard LaTex syntax(vscode supports), such as newline symbol, escape character, Greek upper case letters, etc.
+Sometimes, I adjust several docs for a well symbol or formula rendering, which may lead to incompatibility with local LaTex app.
+If anything is wrong or you have a better solution to this possible problem, please feel free to let me know.
+
+## Author and Contact
+Changrui
+scrdyx@163.com
+
