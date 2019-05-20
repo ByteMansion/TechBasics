@@ -74,6 +74,27 @@ If not support Latex, it is difficult or disgusting to write a formula in markdo
 | $\nparallel$ | `\nparallel` |
 | $\not\perp$ | `\not\perp` |
 
+### Arrows
+|Symbol|LATEX|
+|-|-|
+| $\rightarrow$ or $\to$ | `\rightarrow` or `\to` |
+| $\mapsto$ | `\mapsto` |
+| $\leftarrow$ or $\gets$ | `\leftarrow` or `\gets` |
+| $\Rightarrow$ | `\Rightarrow` |
+| $\Leftarrow$ | `\Leftarrow` |
+| $\longrightarrow$ | `\longrightarrow` |
+| $\longmapsto$ | `\longmapsto` |
+| $\longleftarrow$ | `\longleftarrow` |
+| $\Longrightarrow$ | `\Longrightarrow` |
+| $\Longleftarrow$ | `\Longleftarrow` |
+| $\uparrow$ | `\uparrow` |
+| $\Uparrow$ | `\Uparrow` |
+| $\downarrow$ | `\downarrow` |
+| $\Downarrow$ | `\Downarrow` |
+| $\updownarrow$ | `\updownarrow` |
+| $\Updownarrow$ | `\Updownarrow` |
+
+
 
 ## Reference
 [1] https://www.latex-project.org/
