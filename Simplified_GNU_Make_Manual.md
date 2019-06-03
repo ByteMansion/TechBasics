@@ -42,7 +42,7 @@ hello: main.cpp hello.cpp factorial.cpp
 Common implicit rule is given below for the construction of .o(object) files out of .cpp(source file) files.
 ```Makefile
 .o.cpp:
-    ${CC ${CFLAGS} -c $<
+    ${CC} ${CFLAGS} -c $<
 ```
 **alternatively:**
 ```Makefile
@@ -138,7 +138,7 @@ The command is one that is ought to work in all cases where we build an executab
 ```
 Another common implicit rule is for the construction of `.o`(object) files out of `.cpp`(source file).
 ```Makefile
-.o.cpp
+.o.cpp:
     ${CC} ${CFLAGS} -c $<
 ```
 **alternatively:**
