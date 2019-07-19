@@ -161,11 +161,11 @@ For example:
 To display an elegant math formulas, add dollar(`$`) or double dollars(`$$`) before and after the words.
 
 For example:
-> $$x_0, x_1 = f(x_0), x_2 = f(x_1), ..., x_i = f(x_{i-1}), ...$$(1)
+> $ x_0, x_1 = f(x_0), x_2 = f(x_1), ..., x_i = f(x_{i-1}), ...$ (1)
 > 
 > function $f(x) = ax^2+bx+c$
 > 
-> $$f(x) = \sum_{i=1}^{n}(-1)^i(x-i)^{p-1}$$(2)
+> $ f(x) = \sum_{i=1}^{n}(-1)^i(x-i)^{p-1}$ (2)
 
 ## Escape
 To display some special characters which are used to typeset content, we have to use escape character before them.

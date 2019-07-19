@@ -31,9 +31,13 @@ But writing down a manual of LaTex that covers all aspects of its functions and 
 This manual is about how to add git branch name into bash prompt, which is important and useful for software engineers working on large program.
 
 ## !Note
-If you notice that LaTex syntax cannot display well on some github page, please git clone this repo and review the page in your local machine and a Latex-support app, such as [vscode](https://code.visualstudio.com/) with a markdown extention.
-All manuals are wrote in vscode and display absolutely well. I have found several different points bwetween github page and standard LaTex syntax(vscode supports), such as newline symbol, escape character, Greek upper case letters, etc.
+If you notice that LaTex syntax cannot display well on some web page, there are 2 ways to solve it.
+
+1. Please git clone this repo and review the page in your local machine with a Latex-support app, such as [vscode](https://code.visualstudio.com/) with a markdown extention. All manuals are wrote in vscode and display absolutely well.
+2. If you are using Google Chrome web browser, you can download [Tex All The Things](https://chrome.google.com/webstore/detail/tex-all-the-things/cbimabofgmfdkicghcadidpemeenbffn) extension, which can render LaTex well except for certain Greek letters.
+
 Sometimes, I adjust several docs for a well symbol or formula rendering, which may lead to incompatibility with local LaTex app.
+
 If anything is wrong or you have a better solution to this possible problem, please feel free to let me know.
 
 ## Author and Contact
