@@ -39,6 +39,7 @@ Blockquotes can contain other Markdown formatted elements. Not all elements can 
 > **Bold** `OK`
 > 
 > *Italic* `OK`
+> - Unordered List `OK`
 
 ## List
 ### Order Lists
