@@ -11,6 +11,15 @@ Those docs are not complete, but can play an important role when you want to fam
 
 This manual is about `GNU make` tools. Makefile is important for those engineers working on a large program to compile source files and generate executables.
 
+## CMake manual
+[Cmake](./CMake_Introduction.md)
+
+[CMake](https://cmake.org) is an open-source, cross-platform family of tools designed to build, test and package software. CMake is used to control the software compilation process using simple platform and compiler independent configuration files, and generate native makefiles and workspaces that can be used in compiler environment of your choice.
+
+CMake Command is simple compared to Makefile and can be applied into development process quickly.
+
+This manual is about CMake Commands used to write scripts to build source files.
+
 ## Markdown manual
 [Markdown Manual](./Simplified_Markdown_Manual.md)
 
