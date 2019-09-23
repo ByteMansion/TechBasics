@@ -94,7 +94,20 @@ If not support Latex, it is difficult or disgusting to write a formula in markdo
 | $\updownarrow$ | `\updownarrow` |
 | $\Updownarrow$ | `\Updownarrow` |
 
-
+### Arithmetics
+|Symbol|LATEX|
+|-|-|
+| $\cdot$ | `\cdot` |
+| $ \times $ | `\times` |
+| $ \pm $ | `\pm` |
+| $ \div $ | `\div` |
+| $ \frac{2}{3} $ | `\frac{2}{3}` |
+| $ \sqrt[3]{8} $ | `\sqrt[3]{8}` |
+| $ x_{2} $ | `\x_{2}` |
+| $ x^{2} $ | `\x^{2}` |
+| $ \int_0^2x^2dx $ | `\int_0^2x^2dx` |
+| $ \lim_{h \to 0} \frac{h}{\sin h} $ | `\lim_{h \to 0} \frac{h}{\sin h}` | 
+| $ \prod_{i = 0}^{n} i $ | `\prod_{i = 0}^{n} i` |
 
 ## Reference
 [1] https://www.latex-project.org/
