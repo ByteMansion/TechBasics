@@ -37,27 +37,35 @@ $ tmux a -t mysession    // attach to a session named as mysession
 
 ## Windows
 1. Create window
+
 `Ctrl` + `b`  `c`
 
 2. Close current window
+
 `Ctrl` + `b`  `&`
 
 3. Next window 
+
 `Ctrl` + `b`  `n`
 
 4. Switch/select window by number
+
 `Ctrl` + `b`  `0..9`
 
 ## Panes
 1. Split pane vertically
+
 `Ctrl` + `b`  `%`
 
 2. Split pane horizontally
+
 `Ctrl` + `b`  `;`
 
 3. Move current pane left
+
 `Ctrl` + `b`  `{`
 
 4. Move current pane right
+
 `Ctrl` + `b`  `}`
 
