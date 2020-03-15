@@ -39,6 +39,11 @@ But writing down a manual of LaTex that covers all aspects of its functions and 
 
 This manual is about how to add git branch name into bash prompt, which is important and useful for software engineers working on large program.
 
+[useful tmux shortcuts](./trick/UsefulTmuxCheatsheet.md)
+
+This page documents some useful shortcuts for Tmux.
+
+
 ## !Note
 If you notice that LaTex syntax cannot display well on some web page, there are 2 ways to solve it.
 
